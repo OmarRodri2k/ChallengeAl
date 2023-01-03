@@ -213,14 +213,21 @@ body
 
 @media screen and (max-width:768px)
 {
+    .music{
+        width: 65%;
+        left: 24%;
+        top: 4.5%;
+    }
+
     .entradaarea{
         width: 80%;
-        height: 40%;
-        top: 15%;
+        height: 50%;
+        top: 20%;
     }
     
     .munieco{
         display:none !important;
+        width: 80%;
     }
 
     .advertencia{
@@ -229,7 +236,7 @@ body
 
     .cajabotones{
         width: 80%;
-        top: 65%;
+        top: 54.5%;
     }
 
     .cajaresultado{
@@ -240,28 +247,46 @@ body
         gap: 3%;
         position: absolute;
         width: 80%;
-        height: 25%;
+        height: 50%;
         background: white;
         right: 10%;
-        top: 75%;
+        top: 80%;
         box-shadow: 0px 24px 32px -8px rgba(0,0,0,0.08);
         border-radius: 32px;
     }
+
+   
+
     
     .mensajeresultado{
         width: auto;
         height: auto;
     }
+
+    
 }
 
 
 @media screen and (max-width:375px)
 {
+
+    .music{
+        width: 75%;
+        left: 16%;
+       
+    }
+    .mensaje{
+        font-size: 15px;
+    width: 60%;
+    left: 22%;
+    top: 8.4%;
+    }
+
     .entradaarea{
-        width: 90%;
-        height: 40%;
+        width: 85%;
+        height: 30%;
         left: 4%;
-        top: 15%;
+        top: 25%;
     }
     
     .persona{
@@ -282,6 +307,7 @@ body
 
     .btnencriptar{
         width: 100%;
+        top: 45%;
     }
     .btndesencriptar{
         width: 100%;
@@ -315,10 +341,7 @@ body
         font-size: 12px;
     }
 
-    .btnencriptar, .btndesencriptar, .btncopiar{
-        
-    }
-
+    
     .resultadoencriptado{
         font-size: 16px;
     }
